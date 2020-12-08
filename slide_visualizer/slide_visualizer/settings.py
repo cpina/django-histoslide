@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'histoslide',
     'main',
 ]
 
@@ -120,5 +119,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-SLIDEFILE_EXTENSIONS = ('.jpg', '.jpeg', '.mrxs', '.tif', '.tiff')
-HISTOSLIDE_SLIDEROOT = '/tmp/slides'

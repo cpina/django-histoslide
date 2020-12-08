@@ -1,0 +1,18 @@
+{% load static %}
+<html lang="en">
+<head>
+    <title>Test</title>
+</head>
+<body>
+<div id="openseadragon1" style="width: 800px; height: 600px;"></div>
+
+<script src="{% static 'openseadragon-bin-2.4.2/openseadragon.min.js' %}"></script>
+<script type="text/javascript">
+    var viewer = OpenSeadragon({
+        id: "openseadragon1",
+        prefixUrl: "{% static 'cake_files' %}",
+        tileSources: "{% static 'cake.dzi' %}"
+    });
+</script>
+</body>
+</html>
