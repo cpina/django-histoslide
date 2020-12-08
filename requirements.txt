@@ -1,2 +1,7 @@
-Django>=1.8
-openslide-python==1.1.1
+django==3.1.4
+openslide-python==1.1.2
+pip-chill==1.0.0
+# asgiref==3.3.1 # Installed as dependency for django
+# pillow==8.0.1 # Installed as dependency for openslide-python
+# pytz==2020.4 # Installed as dependency for django
+# sqlparse==0.4.1 # Installed as dependency for django
